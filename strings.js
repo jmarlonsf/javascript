@@ -1,0 +1,14 @@
+var s = "The winter is coming, coming, coming";
+console.log(s);
+console.log(s.length);
+console.log(s.indexOf("coming"));
+console.log(s.lastIndexOf("coming"));
+console.log(s.slice(4,10));
+console.log(s.slice(4, -8));
+console.log(s.substr(4, 6));
+console.log(s.replace("winter", "summer"));
+console.log(s.toUpperCase());
+console.log(s.toLowerCase());
+console.log(s.concat("!", "!", "?"));
+var s2 = "Ned, Jon, Robb, Sansa, Bran, Arya, Rickson";
+console.log(s2.split(","));
